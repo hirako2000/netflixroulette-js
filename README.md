@@ -3,6 +3,7 @@ Netflixroulette js Promise wrapper
 
 ### What is this
 - Low level http requests to netflixroulette API
+- Zero dependency
 - Returns a Promise
 - Full API support - Search by Title, Year, Actor, Director
 
