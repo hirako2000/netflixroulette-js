@@ -9,12 +9,12 @@ Netflixroulette js Promise wrapper
 
 ### Usage
 Import module
-```
+```javascript
 import netflix from 'netflixroulette-js';
 ```
 
 Search by Title. This returns a single entry as per API
-```
+```javascript
 netflix("Breaking Bad")
 .then(function(response) {
         console.log("Breaking Bad: " + JSON.stringify(response, null, 2));
@@ -25,7 +25,7 @@ netflix("Breaking Bad")
 ```
 
 Search by Actor. This returns a set of entries, as per API
-```
+```javascript
 netflix({'actor': 'jim carrey'})
 .then(function(response) {
         console.log("Jim carrey's movies: " + JSON.stringify(response, null, 2));
