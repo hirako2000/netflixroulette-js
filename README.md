@@ -44,3 +44,8 @@ or
 - Actor
 
 
+Enjoy! 
+
+If you wish to contirbute, just fork and raise PR, this will get merged if adhering to existing code implicit conventions.
+
+thanks!
